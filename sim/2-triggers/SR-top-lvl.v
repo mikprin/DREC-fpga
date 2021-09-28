@@ -2,17 +2,17 @@
 
 
 
-module SR_top_lvl (
+module SR_top_lvl;
 
-realtime T_half = 10;
 
-wire clk;
+reg clk;
 
-always @(T_half) begin
-clk <= !clk;    
-end
 
 initial begin
+    forever begin
+        clk = 0;
+        #10 clk = ~clk;
+    end 
     $dumpvars;
     clk = 1'b0;
     #100

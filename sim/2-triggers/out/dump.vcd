@@ -1,0 +1,20 @@
+$date
+	Tue Sep 28 19:21:27 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	10ps
+$end
+$scope module SR_top_lvl $end
+$var reg 1 ! clk $end
+$var real 1 " T_half $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+r10 "
+1!
+$end
+#10000
