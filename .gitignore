@@ -12,6 +12,7 @@
 *.cb2
 .*.lb
 
+
 ## Intermediate documents:
 *.dvi
 *.xdv
@@ -289,3 +290,4 @@ slides/01.pptx
 slides/02.pptx
 slides/03.pptx
 slides/04.pptx
+
